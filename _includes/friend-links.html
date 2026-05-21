@@ -1,0 +1,11 @@
+<!-- Friend Links Panel -->
+{% if site.data.links.size > 0 %}
+  <div id="access-lastmod" class="post">
+    <div class="panel-heading">{{ site.data.locales[include.lang].panel.friend_links | default: 'Friend Links' }}</div>
+    <ul class="post-content pl-0 pb-1 ml-1 mt-2">
+    {% for item in site.data.links %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endif %}
