@@ -131,9 +131,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: Vince-cyh/Blog # <gh-username>/<repo>
-    repo_id: # fill in from https://giscus.app
+    repo_id: R_kgDOSjg-AA # fill in from https://giscus.app
     category: BlogComments
-    category_id: # fill in from https://giscus.app
+    category_id: DIC_kwDOSjg-AM4C9gfI # fill in from https://giscus.app
     mapping: pathname # optional, default to 'pathname'
     strict: 0 # optional, default to '0'
     input_position: top # optional, default to 'bottom'
